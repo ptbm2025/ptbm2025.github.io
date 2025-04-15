@@ -1,0 +1,23 @@
+title: Post-Training Backdoor Mitigation Challenge for LLMs (PTBM@LLM)
+email: ptbmllm2025@gmail.com
+description: Post-Training Backdoor Mitigation
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+navigation:
+  Home: "/"
+  Challenge: "/challenge/"
+  Rules: "/rules/"
+  Timeline: "/timeline/"
+  StartKit: "/startkit/"
+  Organizer: "/organizer/"
+  Workshop: "/workshop/"
+
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-spaceshi
