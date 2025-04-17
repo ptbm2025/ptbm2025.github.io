@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<p style='text-align: justify;'>
-<!-- Backdoor attacks pose a significant threat to Deep Neural Language Models by poisoning training data with desired malicious patterns. Individuals and organizations with limited resources frequently rely on obtaining pre-trained checkpoints from open-source platforms. The lack of transparency regarding the training processes increases the risk of backdoor insertion. Additionally, some emerging resource sharing or collaborative training schemes, like LoRA module sharing, federated learning, and version control based model training approaches (Git-Theta), could also be susceptible to backdoor attacks. Developing effective measures to mitigate such a malicious threat in large-scale models is essential. A fundamental initial step is to determine whether a model has been backdoored. </p> -->
+The rapid adoption of open-source Large Language Models (LLMs) has transformed natural language processing, making powerful models accessible to a broader community. But with this progress comes a growing risk: models sourced from public hubs may be compromised with hidden backdoors, inserted through fine-tuning or malicious editing.
 
-<br>
-<!-- Rather than relying on knowledge of poisoned data or feasible trigger sets to identify backdoored models, our goal is to identify such models in more realistic scenarios where only a collection of models is provided. -->
+The **Post-Training Backdoor Mitigation Challenge for Large Language Models (PTBM-LLM)** invites participants to tackle this emerging threat. Instead of relying on clean data or trusted references, this competition focuses on defending compromised models under practical, post-training constraints — the kind users often face in real-world deployment.
 
-<br>
+Participants will work across two high-impact tracks — **generative** and **classification** — and explore lightweight, task-independent strategies to neutralize hidden backdoors. By offering a realistic evaluation setup and shared model checkpoints, PTBM-LLM aims to inspire new defenses that are not just effective, but also accessible.
+
+Together, let’s build a more secure and trustworthy model-sharing ecosystem.

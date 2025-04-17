@@ -4,10 +4,10 @@ title: Rules
 permalink: /rules/
 ---
 
-- **Registration Eligibility:** The competition is open to everyone. Participants can form teams of any size, but each participant is limited to belonging to one team only. Engaging with multiple teams will result in the disqualification of all involved teams. Each team has the responsibility to self-certify no member is participating in more than one team for this contest.
+- **Registration Eligibility:** The competition is open to all. Participants may form teams of any size, but each individual may join only one team. Team members must self-certify that they are not part of multiple submissions; violations will result in the disqualification of all involved teams.
 
-- **Permitted Techniques and Computational Limits:** The contest is divided into a development stage and a testing stage. During the development stage, participants face no restrictions on the methodologies and computational resources they employ for their submissions. However, in the testing stage, submissions are encouraged to primarily rely on parameter analysis, and they must be capable of completing within a 24-hour timeframe on a single Nvidia A100 graphics card.
+- **Permitted methods and resource limits:** During the development phase, participants are free to use any approach and computational resource. In the test phase, however, solutions are expected to emphasize parameter-space analysis and must complete evaluation within 24 hours on a single Nvidia A100 GPU. This constraint promotes practical, lightweight methods.
 
-- **Submission Restrictions:** During the development stage, each team can submit up to 5 times per day, while in the testing phase, a maximum of total 5 submissions is allowed.
+- **Submission limits:** Each team may submit up to three entries per day per track during the development phase. In the test phase, each team is allowed a maximum of five submissions per track for final evaluation.
 
-- **Winning Teams Obligations:** The top three winning teams for each track are required to submit their code along with a report detailing their methodology. Additionally, they will be invited to present their work at the competition event.
+- **Finalist obligations:** The top three teams will be required to submit their code and a detailed report describing their methodology. Finalists will also be invited to present their solutions at the official competition session.
