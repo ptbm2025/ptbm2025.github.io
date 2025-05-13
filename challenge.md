@@ -8,7 +8,7 @@ permalink: /challenge/
 
 Participants are invited to develop methods for mitigating backdoor behaviors in language models under realistic post-deployment constraints. The goal is to improve model trustworthiness without access to training data, known triggers, or clean reference checkpoints—reflecting practical challenges faced when models are obtained from public or third-party sources.
 
-The competition features two tracks—**Generative** and **Classification**—each consisting of a **Development** and a **Test** phase. In both tracks, participants are provided with modified **LLaMA 2 7B** model checkpoints and evaluation inputs, and are expected to submit their restored outputs or predictions. Performance will be assessed using two main metrics: **Attack Success Rate (ASR)** and **Clean Accuracy (CACC)**. Task details for each track are summarised below.
+The competition features three tracks—**Generative**, **Classification** and **multilingual**—each consisting of a **Development** and a **Test** phase. In both tracks, participants are provided with modified **LLaMA 2 7B** model checkpoints and evaluation inputs, and are expected to submit their restored outputs or predictions. Performance will be assessed using two main metrics: **Attack Success Rate (ASR)** and **Clean Accuracy (CACC)**. Task details for each track are summarised below.
 
 ### Track A – Generative Backdoor Mitigation
 
@@ -22,6 +22,16 @@ The competition features two tracks—**Generative** and **Classification**—ea
 - Final submissions consist of generated outputs evaluated on utility and ASR criteria.
 
 ### Track B – Classification Backdoor Mitigation
+
+**Development Phase:**
+- Clean and poisoned validation sets with an evaluation script to compute both CACC and ASR.
+- Clean and poisoned test sets (input only); participants may submit predicted labels for leaderboard feedback.
+
+**Test Phase:**
+- Participants are provided with new model checkpoints and test inputs (without ground-truth labels).
+- Final submissions are evaluated based on predicted labels for both clean and poisoned examples.
+  
+### Track C – Multilingual Backdoor Mitigation
 
 **Development Phase:**
 - Clean and poisoned validation sets with an evaluation script to compute both CACC and ASR.
